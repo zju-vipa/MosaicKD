@@ -1,2 +1,2 @@
 # MosaicKD
-[NeurIPS-2021] Mosaicking to Distill: Knowledge Distillation from Out-of-Domain Data
+Code for NeurIPS-21 paper "Mosaicking to Distill: Knowledge Distillation from Out-of-Domain Data"
