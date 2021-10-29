@@ -41,7 +41,7 @@ python train_scratch.py --lr 0.1 --batch-size 256 --model wrn40_2 --dataset cifa
 
 ### 3.3 OOD-KD: CIFAR-100 (ID) + ImageNet/Places365 OOD Subset (OOD)
 
-* **prepare 32x32 datasets**   
+* **Prepare 32x32 datasets**   
 please prepare the 32x32 ImageNet following the instructions from https://patrykchrabaszcz.github.io/Imagenet32/ and extract them as "data/ImageNet_32x32/train" and "data/ImageNet_32x32/val". You can prepare Places365 in the same way.
 
 * **MosaicKD on OOD subset**    
