@@ -50,6 +50,9 @@ As ImageNet & Places365 contains a large number of in-domain, we construct OOD s
     ```bash
     python kd_mosaic.py --lr 0.1 --batch-size 256 --teacher wrn40_2 --student wrn16_1 --dataset cifar100 --unlabeled cifar10 --epoch 200 --lr 0.1 --local 1 --align 1 --adv 1 --balance 10 --ood_subset --gpu 0
     ```
+<div align="center">
+<img src="assets/exp.jpg" width="80%""></img> 
+</div>
 
 ## 4. Citation
 
