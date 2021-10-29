@@ -1,0 +1,5 @@
+__pycache__
+checkpoints
+*.pth
+tb_log
+data
