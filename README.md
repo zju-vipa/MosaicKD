@@ -38,7 +38,7 @@ python train_scratch.py --lr 0.1 --batch-size 256 --model wrn40_2 --dataset cifa
     ```bash
     python kd_mosaic.py --lr 0.1 --batch-size 256 --teacher wrn40_2 --student wrn16_1 --dataset cifar100 --unlabeled cifar10 --epoch 200 --lr 0.1 --local 1 --align 1 --adv 1 --balance 10 --gpu 0
     ```
-
+    
 ### 3.3 OOD-KD: CIFAR-100 (ID) + ImageNet/Places365 OOD Subset (OOD)
 
 * **Prepare 32x32 datasets**   
@@ -54,7 +54,15 @@ As ImageNet & Places365 contains a large number of in-domain, we construct OOD s
 <img src="assets/exp.jpg" width="80%""></img> 
 </div>
 
-## 4. Citation
+                                      
+## 4. Visualization of synthetic data
+                                      
+<div align="center">
+<img src="assets/vis.jpg" width="80%""></img> 
+</div>   
+
+                                      
+## 5. Citation
 
 If you found this work useful for your research, please cite our paper:
 ```
