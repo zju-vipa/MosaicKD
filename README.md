@@ -9,7 +9,7 @@ Natural images share common local patterns. In MosaicKD, these local patterns ar
 </div>
 
 ## 2. Method
-MosaicKD establish a four player minimax game between a generator G, a patch discriminator D, a teacher model T and a student model S. The generator, as those in prior GANs, takes as input a random noise vector and learns to mosaic synthetic in-domain samples with **locally-authentic  and globally-legitimate** distributions, under the supervisions back-propagated from the other three players.
+MosaicKD establishes a four player minimax game between a generator G, a patch discriminator D, a teacher model T and a student model S. The generator, as those in prior GANs, takes as input a random noise vector and learns to mosaic synthetic in-domain samples with **locally-authentic  and globally-legitimate** distributions, under the supervisions back-propagated from the other three players.
 <div align="center">
 <img src="assets/framework.jpg" width="60%""></img>
 </div>
