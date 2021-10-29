@@ -42,10 +42,10 @@ python train_scratch.py --lr 0.1 --batch-size 256 --model wrn40_2 --dataset cifa
 ### 3.3 OOD-KD: CIFAR-100 (ID) + ImageNet/Places365 OOD Subset (OOD)
 
 * **Prepare 32x32 datasets**   
-please prepare the 32x32 ImageNet following the instructions from https://patrykchrabaszcz.github.io/Imagenet32/ and extract them as "data/ImageNet_32x32/train" and "data/ImageNet_32x32/val". You can prepare Places365 in the same way.
+Please prepare the 32x32 ImageNet following the instructions from https://patrykchrabaszcz.github.io/Imagenet32/ and extract them as "data/ImageNet_32x32/train" and "data/ImageNet_32x32/val". You can prepare Places365 in the same way.
 
 * **MosaicKD on OOD subset**    
-As ImageNet & Places365 contains a large number of in-domain, we construct OOD subset for training. Please run the scripts with  ''--ood_subset'' to enable subset selection.
+As ImageNet & Places365 contain a large number of in-domain samples, we construct OOD subset for training. Please run the scripts with  ''--ood_subset'' to enable subset selection.
 
     ```bash
     python kd_mosaic.py --lr 0.1 --batch-size 256 --teacher wrn40_2 --student wrn16_1 --dataset cifar100 --unlabeled cifar10 --epoch 200 --lr 0.1 --local 1 --align 1 --adv 1 --balance 10 --ood_subset --gpu 0
