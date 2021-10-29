@@ -2,7 +2,7 @@
 Code for NeurIPS-21 paper "[Mosaicking to Distill: Knowledge Distillation from Out-of-Domain Data](https://arxiv.org/abs/2110.15094)"
 
 ## 1. Motivation
-Natural images share common local patterns.  InMosaicKD, these local patterns are first dissembled fromOOD data and then assembled to synthesize in-domain data,making OOD-KD feasible.
+Natural images share common local patterns. In MosaicKD, these local patterns are first dissembled fromOOD data and then assembled to synthesize in-domain data,making OOD-KD feasible.
 
 <div align="center">
 <img src="assets/intro.jpg" width="60%""></img> 
