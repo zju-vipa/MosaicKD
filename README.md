@@ -31,7 +31,7 @@ python train_scratch.py --lr 0.1 --batch-size 256 --model wrn40_2 --dataset cifa
 
 * **Data-Free KD ([DFQAD](https://arxiv.org/abs/2005.04136))**
     ```bash
-    python kd_datafree.py --lr 0.1 --batch-size 256 --teacher wrn40_2 --student wrn16_1 --dataset cifar100 --unlabeled cifar10 --epoch 200 --lr 0.1 --local 1 --align 1 --adv 1 --balance 10 --gpu 0
+    python kd_datafree.py --teacher wrn40_2 --student wrn40_1 --dataset cifar100 --epochs 200 --oh 1 --ie 20 --bn 1 --adv 1 --gpu 0
     ```
 
 * **MosaicKD (This work)**
