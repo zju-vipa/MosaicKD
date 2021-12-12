@@ -66,10 +66,10 @@ As ImageNet & Places365 contain a large number of in-domain samples, we construc
 
 If you found this work useful for your research, please cite our paper:
 ```
-@article{fang2021mosaicking,
+@inproceedings{fang2021mosaicking,
   title={Mosaicking to Distill: Knowledge Distillation from Out-of-Domain Data},
-  author={Gongfan Fang and Yifan Bao and Jie Song and Xinchao Wang and Donglin Xie and Chengchao Shen and Mingli Song},
-  journal={arXiv preprint arXiv:2110.15094},
+  author={Fang, Gongfan and Bao, Yifan and Song, Jie and Wang, Xinchao and Xie, Donglin and Shen, Chengchao and Song, Mingli},
+  booktitle={Thirty-Fifth Conference on Neural Information Processing Systems},
   year={2021}
 }
 ```
