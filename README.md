@@ -19,7 +19,7 @@ MosaicKD establishes a four-player minimax game between a generator G, a patch d
 ### 3.1 Prepare teachers
 Please download our pre-trained models from [Dropbox (266 M)](https://www.dropbox.com/sh/w8xehuk7debnka3/AABhoazFReE_5mMeyvb4iUWoa?dl=0) and extract them as "checkpoints/pretrained/*.pth". You can also train your own models as follows:
 ```bash
-python train_scratch.py --lr 0.1 --batch-size 256 --model wrn40_2 --dataset cifar100
+python train_scratch.py --lr 0.1 --batch-size 256 --model wrn40_2 --dataset cifar100 --gpu 0
 ```
 
 ### 3.2 OOD-KD: CIFAR-100 (ID) + CIFAR10 (OOD)
